@@ -1,7 +1,7 @@
 # Primer-Entrega-Seminario
 
-#Nombre:
-##Augusto Guillermo Retamozo
+# Nombre:
+## Augusto Guillermo Retamozo
 
-#Numero de alumno:
-##21374/7
+# Numero de alumno:
+## 21374/7
