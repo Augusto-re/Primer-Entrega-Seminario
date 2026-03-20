@@ -10,13 +10,32 @@ words = [
     "lista",
 ]
 
-word = random.choice(words)
+categories = {"lenguajes": ["pyton"],
+              "datos": ["cadena", "entero"],
+              "estructuras": ["lista"],
+              "palabras clave": ["programa", "variable", "funcion", "bucle"]
+}
+
+
 guessed = []
 attempts = 6
 points = 0
 
 print("¡Bienvenido al Ahorcado!")
 print()
+
+for elem in categories:
+    print(elem)
+
+print()
+
+category = input("Elegi la categoria ")
+
+while category not in categories:
+    print("La categoria no existe, elegi otra")
+    category = input("Elegi la categoria ")
+word = random.choice(categories[category])
+
 
 while (attempts > 0):
     progress = ""
